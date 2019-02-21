@@ -9,6 +9,7 @@
 <?import javafx.scene.layout.GridPane?>
 <?import javafx.scene.layout.RowConstraints?>
 <?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
 
 <AnchorPane prefHeight="287.0" prefWidth="456.0" xmlns="http://javafx.com/javafx/10.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.VistaController">
    <children>
@@ -27,9 +28,14 @@
           <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
         </rowConstraints>
       </GridPane>
-      <ImageView fx:id="portada" fitHeight="127.0" fitWidth="350.0" layoutX="71.0" pickOnBounds="true" preserveRatio="true">
+      <ImageView fx:id="portada" fitHeight="112.0" fitWidth="390.0" layoutX="31.0" pickOnBounds="true">
          <image>
-            <Image url="@../../img/1.png" />
+            <Image url="@../images/oracle-logo.png" />
          </image></ImageView>
+      <Label layoutX="327.0" layoutY="77.0" text="Polinomio" textFill="#da0a0a">
+         <font>
+            <Font name="Bodoni MT" size="17.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
